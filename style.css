@@ -1,0 +1,34 @@
+body{
+    background-color: black;
+}
+#container{
+    width: 1000px;
+    height: 550px;
+    margin: 20px auto;
+}
+#Calculator{
+    width: 320px;
+    height: 520px;
+    background-color: white;
+    margin: 0 auto;
+    top: 20px;
+    position: relative;
+    border-radius: 5px;
+}
+#keyboard{
+    height: 400px;
+}
+.operator,.number,.empty{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: boid;
+    font-size: 15px;
+    cursor: pointer;
+}
+.operator:active,.number:active{
+    font-size: 13px;
+}
